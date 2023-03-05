@@ -1,4 +1,3 @@
-/*
 package com.dws.challenge.config;
 
 import lombok.RequiredArgsConstructor;
@@ -33,11 +32,10 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Test")
-                .description("applicationProperties.getDescription()")
-                .termsOfServiceUrl("applicationProperties.getTerms()")
-                .version("applicationProperties.getVersion()")
+                .title(" Money Transfer Challenge")
+                .description("We are providing you with a simple REST service with some very basic functionality - to add and read an\n" +
+                        "account.")
+                .version("1.0.0")
                 .build();
     }
 }
-*/
